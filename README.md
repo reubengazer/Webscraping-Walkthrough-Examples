@@ -1,12 +1,25 @@
 # Webscraping: Introduction and Example Walkthrough
 
-In this repository, you can learn how to perform simple webscraping using the python package _Selenium_.
+In this repository, you can learn how to perform simple webscraping using the python package _selenium_ and _lxml_.
 
-**FIRST**: Read through _webscraping-introduction.md_. This motivates why I chose to use Selenium over just the _requests_ package.   
-**SECOND**: Read through _webscraping-example-walkthrough.md_. This is a step-by-step example of scraping weather data for cities in Alberta.  
-**THIRD**: Download _just_ the code to do the weather-data-scraping in _alberta-weather-webscraping-code.py_.  
+There are currently two fully worked examples:
 
-**Notes**: If you want a jupyter notebook to work through the example walkthrough, they reside in the Notebooks-to-Download folder.
+**Webscraping-Albertan-Weather** : Start here! Simple HTML page retrieval and scraping of content.  
+**Webscraping-AltaML-CBC-Article** : Go here next! More complex tasks including point-and-clicking, text submission in a browser programmatically.
+
+**Each of these examples has 3 files inside:**
+
+- a Markdown file to read through (nicely formatted for the eyes!)
+- a jupyter notebook to work through (these notebooks render poorly in Github - download it!)
+- a pure python file with **only** the source code that can be run as a stand-alone file
+
+We will use two packages to complete this work, _lxml_ and _selenium_. See relevant info below.
+
+## lxml Installation & Documentation ##
+
+Installation instructions: https://pypi.org/project/lxml/
+
+Documentation: https://lxml.de/
 
 ## Selenium Installation & Documentation
 
